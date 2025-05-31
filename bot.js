@@ -9,7 +9,7 @@ const { PQueue } = require('p-queue');
 // Configuration
 const API_KEY = process.env.TELEGRAM_API_KEY;
 const MONGO_URI = process.env.MONGO_URI;
-const ADMIN_ID = 2110818173;
+const ADMIN_ID = 7804932882;
 
 // Initialize MongoDB
 mongoose.connect(MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
