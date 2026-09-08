@@ -4,6 +4,7 @@
   "description": "A Telegram bot to download Scribd documents, built with Node.js, MongoDB, and Telegram Bot API.",
   "main": "api/webhook.js",
   "scripts": {
+    "type": "module",
     "start": "node api/webhook.js",
     "dev": "nodemon api/webhook.js"
   },
