@@ -1,5 +1,5 @@
 // api/webhook.js
-import { bot } from '../lib/bot';
+import { bot } from '../lib/bot.js';
 
 export default async function handler(req, res) {
   if (req.method === 'POST') {
